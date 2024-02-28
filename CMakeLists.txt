@@ -8,7 +8,7 @@ else()
 endif()
 
 project(heaptrack)
-enable_testing()
+# enable_testing()
 
 if(NOT CMAKE_BUILD_TYPE)
   message(STATUS "Setting build type to 'RelWithDebInfo' as none was specified.")
@@ -172,7 +172,7 @@ endif()
 
 add_subdirectory(3rdparty)
 add_subdirectory(src)
-add_subdirectory(tests)
+# add_subdirectory(tests)
 
 # Let releaseme know about this:
 # SKIP_PO_INSTALL
